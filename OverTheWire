@@ -1,0 +1,9 @@
+ssh - ssh bandit6@bandit.labs.overthewire.org -p 2220
+
+// Level 6 - pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
+ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+# / is to search root directory 
+# 33c = 33 bytes
+# 2>/dev/null - to redirect all permission denied 
+
+// Level 7 - Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3
