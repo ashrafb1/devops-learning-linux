@@ -17,3 +17,13 @@ bandit8@bandit:~$ sort data.txt | uniq -u
 EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
 
 // Level 9 - EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl
+string command - reads the file for readable text
+
+// Level 10 - B0s2khmbT9u0geKuOoVGW3JZKhndE3BG
+ base64 can be used to decode
+
+// level 11 - pYfOY6HwUsDj5rL9UvyhU7MCmv8vN5Ro
+tr command = translate 
+e.g abc tr 'abc' 'xyz' --> xyz
+
+// level 12 - GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
