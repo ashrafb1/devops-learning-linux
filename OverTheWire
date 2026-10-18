@@ -28,7 +28,12 @@ e.g abc tr 'abc' 'xyz' --> xyz
 
 // level 12 - GROozWPO8QyN0mGrjUkID0WCYkZiQxrN
 
-// level 13 -
+// level 13 - qQYQiHOBPR8zR61qxYqX45quvihF2uzk
+
+WOW! This was the hardest level so far... On this level I learnt how to deompress file using bzip and gzip. 
+What got me stuck in the first stage was converting the hex dump into binary which was done by the xxd command,
+Then I have to use the file command to check the file type which told me what compression was use, then I had to rename the file with the correct file ending
+and decompressing where I finaly solved the level. 
 
 // level 14 -
 
