@@ -35,7 +35,11 @@ What got me stuck in the first stage was converting the hex dump into binary whi
 Then I have to use the file command to check the file type which told me what compression was use, then I had to rename the file with the correct file ending
 and decompressing where I finaly solved the level. 
 
-// level 14 -
+// level 14 - aaWecNkG4FhxJQxz07uiwzVP6bJiYS65
+
+The firt part of this level you are given a private key which is needed to ssh into the next level but the game doesnt allow you to ssh whilst logged into a level so you have to copy the private key to local machine. 
+To copy I used the command scp which is secure copy which securly transfers files and directories from remote to local or vice versa. Then I used SSH to log in with the private key stored locally but then I got an error because the private key was too open
+so then using the chmod command I made it only visible to the user and then I was logged into the level.
 
 // level 15 -
 
